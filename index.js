@@ -12,7 +12,7 @@ app.use(express.json());
 const port = 6400;
 const connectDB = require("./connString");
 
-const routes_info = require("../backend/routes/route");
+const routes_info = require("./backend/routes/route");
 
 app.use("/",routes_info);
 
