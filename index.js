@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 const port = 6400;
-const connectDB = require("./DB/connString");
+const connectDB = require("./connString");
 
 const routes_info = require("../backend/routes/route");
 
